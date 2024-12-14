@@ -11,3 +11,14 @@ a {
     text-decoration: none;
     color: #000000;
 }
+
+.headerBar {
+    display: flex;
+    flex-direction: row;
+}
+.navigationBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
