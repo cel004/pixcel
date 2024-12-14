@@ -1,0 +1,13 @@
+.title {
+    font-size: 2rem;
+}
+
+.title, a {
+    font-family: "Syne", sans-serif;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
