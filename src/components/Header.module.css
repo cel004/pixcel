@@ -62,3 +62,9 @@ img {
 .detailsContainer p {
     font-size: 0.8rem;
 }
+
+.buttonContainer {
+    padding-top: 4rem;
+    display: flex;
+    justify-content: flex-end;
+}
