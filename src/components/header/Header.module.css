@@ -1,13 +1,19 @@
 .title {
-    font-size: 2rem;
+    font-size: 2.2rem;
+}
+
+a {
+    font-size: 1.2rem;
+}
+
+p {
+    margin: 0;
+    line-height: 1.2;
 }
 
 .title, a {
     font-family: "Syne", sans-serif;
-    font-weight: 600;
-}
-
-a {
+    font-weight: 500;
     text-decoration: none;
     color: #000000;
 }
@@ -15,10 +21,44 @@ a {
 .headerBar {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
+
 .navigationBar {
     display: flex;
-    flex-direction: row;
+    gap: 1rem;
+}
+
+img {
+    max-width: 10%;
+    height: auto;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1.5rem;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 4rem;
+    padding-bottom: 1.5rem;
+}
+
+.detailsContainer {
+    display: flex; 
     justify-content: space-around;
     align-items: center;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    padding: 0.1rem 0.3rem 0.1rem 0.3rem;
+}
+
+.detailsContainer p {
+    font-size: 0.8rem;
 }
