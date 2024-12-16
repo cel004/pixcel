@@ -1,6 +1,6 @@
 import styles from './Header.module.css'
 import logo from '/pixcel_logo.png'
-import Button from '../Button/Button.jsx'
+import Button from '../components/Button/Button.jsx'
 
 function Header() {
     return (

@@ -1,8 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import Header from './components/Pages/Header.jsx'
-import About from './components/Pages/About.jsx'
+import Header from './Pages/Header.jsx'
+import About from './Pages/About.jsx'
+import Process from './Pages/Process.jsx'
+
 
 
 createRoot(document.getElementById('root')).render(
@@ -14,6 +16,7 @@ createRoot(document.getElementById('root')).render(
     <div className="container">
       <Header />
       <About />
+      <Process />
     </div>
   </StrictMode>,
 )

@@ -1,10 +1,12 @@
 import styles from './About.module.css'
+import Title from '../components/Title/Title.jsx'
+
 
 function About() {
     return (
     <>
       <div className={styles.container}>
-        <h2>Who We Are</h2>
+        <Title>Who We Are</Title>
         <p>Based in Toronto, we blend creativity with technicality to create digital experiences.</p>
         <p>We don’t just build websites; we build lasting relationships, understanding your business 
             inside and out to deliver solutions that drive real results.</p>
