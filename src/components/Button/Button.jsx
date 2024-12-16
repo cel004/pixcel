@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from './Button.module.css'
 
-function Button({ link, children }) {
+function Button({ link, button }) {
     return(
         <div className={styles.container}>
-            <a href={link}>{children}</a>
+            <a href={link}>{button}</a>
         </div>
     )
 }

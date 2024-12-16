@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.features {
+    list-style: none; 
+    padding: 0;       
+}
+
+.features li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;     
+    margin-bottom: 0.5rem;
+}
+
+.features li::after {
+    content: "⬤";      
+    color: #000000;       
+    font-size: 0.45rem;    
+    margin-left: 2rem;  
+}
+
+.features li:nth-last-child(-n+2)::after {
+    content: "〇";      
+    color: #000000;       
+    font-size: 0.45rem;    
+    margin-left: 2rem;  
+}

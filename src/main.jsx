@@ -4,6 +4,8 @@ import './index.css'
 import Header from './Pages/Header.jsx'
 import About from './Pages/About.jsx'
 import Process from './Pages/Process.jsx'
+import Package from './Pages/Package.jsx'
+
 
 
 
@@ -17,6 +19,7 @@ createRoot(document.getElementById('root')).render(
       <Header />
       <About />
       <Process />
+      <Package />
     </div>
   </StrictMode>,
 )

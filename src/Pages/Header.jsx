@@ -32,7 +32,7 @@ function Header() {
         </div>
       </div>
       <div className={styles.buttonContainer}>
-        <Button link="#">Get started</Button>
+        <Button link="#" button="Get started" />
       </div>
       </>
     )
