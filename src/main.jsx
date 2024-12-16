@@ -5,6 +5,7 @@ import Header from './Pages/Header.jsx'
 import About from './Pages/About.jsx'
 import Process from './Pages/Process.jsx'
 import Package from './Pages/Package.jsx'
+import Addon from './Pages/Addon.jsx'
 
 
 
@@ -20,6 +21,7 @@ createRoot(document.getElementById('root')).render(
       <About />
       <Process />
       <Package />
+      <Addon />
     </div>
   </StrictMode>,
 )
