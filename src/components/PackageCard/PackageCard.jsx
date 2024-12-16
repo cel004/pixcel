@@ -2,7 +2,7 @@ import styles from './PackageCard.module.css';
 import Button from '../Button/Button.jsx'
 
 
-function PackageCard({ title, children, price, monthly }) {
+function PackageCard({ title, children, price, monthly, buttonText = "Get started" }) {
   return (
     <div className={styles.card}>
         <div className={styles.container}>
@@ -14,7 +14,7 @@ function PackageCard({ title, children, price, monthly }) {
                   <h4 className={styles.monthly}>{monthly}</h4>
                 </div>
                 <div className={styles.buttonContainer}>
-                  <Button link="#" button="Get started" />
+                  <Button link="#" buttonText={buttonText}/>
                 </div>
             </div>
         </div>
