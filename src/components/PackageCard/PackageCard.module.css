@@ -1,0 +1,65 @@
+.container {
+    border: 1.5px solid #000000;
+    border-radius: 15px;
+    padding: 0.5rem 0 1.4rem 0;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card {
+    padding-bottom: 1rem;
+}
+
+.title{
+    font-size: 1.8rem;
+    font-family: "Epilogue", sans-serif;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 1rem;
+}
+
+.prices {
+    padding-top: 1rem;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.price {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.monthly {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+
+.buttonContainer {
+    margin-top: -1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
