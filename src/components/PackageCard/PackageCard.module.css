@@ -26,11 +26,9 @@
     align-items: center;
     justify-content: center;
     display: flex;
-    padding-bottom: 1rem;
 }
 
 .prices {
-    padding-top: 1rem;
     display: flex;
     gap: 0.5rem;
     align-items: center;

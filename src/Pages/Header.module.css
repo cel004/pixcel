@@ -64,7 +64,7 @@ img {
     align-items: center;
     border: 1px solid #000000;
     border-radius: 15px;
-    padding: 0.1rem 0.3rem 0.1rem 0.3rem;
+    padding: 0.3rem 0.3rem 0.3rem 0.3rem;
     flex-wrap: wrap;
     gap: 0.2rem;
 }

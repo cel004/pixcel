@@ -1,4 +1,3 @@
-import styles from './Process.module.css'
 import Title from '../components/Title/Title.jsx'
 import ProcessCard from '../components/ProcessCard/ProcessCard.jsx'
 
@@ -6,7 +5,7 @@ import ProcessCard from '../components/ProcessCard/ProcessCard.jsx'
 function Process() {
     return (
       <>
-      <div className={styles.container}>
+      <div className="processContainer">
         <Title>Our Process</Title>
         <ProcessCard number="1" title="Get in touch">
           <p>
