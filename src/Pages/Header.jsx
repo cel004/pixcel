@@ -22,10 +22,14 @@ function Header() {
           your digital presence, focusing on what truly matters to you.</p>
       </div>
       <div className={styles.detailsContainer}>
-        <p>100% Handmade</p>
-        <p>Fully Responsive</p>
-        <p>Optimized Page Speed</p>
-        <p>SEO</p>
+        <div className={styles.details1}>
+          <p>100% Handmade</p>
+          <p>Fully Responsive</p>
+        </div>
+        <div className={styles.details2}>
+          <p>Optimized Page Speed</p>
+          <p>SEO</p>
+        </div>
       </div>
       <div className={styles.buttonContainer}>
         <Button link="#">Get started</Button>
