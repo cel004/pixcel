@@ -15,11 +15,11 @@ function About() {
             <p className={styles.circle}>Empathy</p>
       </div>
       <div className={styles.textContainer}>
-        <p>Adaptable to unique needs of any industry with 
+        <p>• Adaptable to unique needs of any industry with 
             meaningful and tailored solutions.</p>
-        <p>Transparent communication that drives 
+        <p>• Transparent communication that drives 
             purpose and ensures results.</p>
-        <p>Built with empathy and a genuine understanding, 
+        <p>• Built with empathy and a genuine understanding, 
             always putting your best interests first.</p>
       </div>
       </>

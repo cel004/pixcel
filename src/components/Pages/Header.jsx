@@ -13,11 +13,11 @@ function Header() {
               <a href="#">Pricing</a>
               <a href="#">Contact</a>
             </div>
-            <img src={logo} alt="Pixcel's logo" />
+            {/* <img src={logo} alt="Pixcel's logo" /> */}
           </div>
       </div>
       <div className={styles.textContainer}>
-        <p style={{ fontWeight: '500', fontSize: '1.5rem'}}>Hand-coded with care,</p>
+        <p style={{ fontWeight: '500', fontSize: '1.2rem'}}>Hand-coded with care,</p>
         <p>our websites are crafted with empathy to redefine 
           your digital presence, focusing on what truly matters to you.</p>
       </div>
