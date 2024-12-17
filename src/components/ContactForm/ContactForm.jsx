@@ -1,6 +1,7 @@
 import { useState } from 'react';
-import emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser';
 import styles from './ContactForm.module.css';
+import Title from '../Title/Title.jsx'
 
 function ContactForm() {
     const [name, setName] = useState("");
@@ -48,7 +49,7 @@ function ContactForm() {
 
     return (
         <div className={styles.container}>
-              
+            <Title>Contact Us</Title>
         </div>
     );
 }

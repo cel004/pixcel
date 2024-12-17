@@ -6,6 +6,8 @@ import About from './Pages/About.jsx'
 import Process from './Pages/Process.jsx'
 import Package from './Pages/Package.jsx'
 import Addon from './Pages/Addon.jsx'
+import ContactForm from './components/ContactForm/ContactForm.jsx'
+
 
 
 
@@ -22,6 +24,7 @@ createRoot(document.getElementById('root')).render(
       <Process />
       <Package />
       <Addon />
+      <ContactForm />
     </div>
   </StrictMode>,
 )

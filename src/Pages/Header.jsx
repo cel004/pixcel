@@ -1,5 +1,5 @@
 import styles from './Header.module.css'
-import logo from '/pixcel_logo.png'
+import logo from '/pixcel_logo.svg'
 import Button from '../components/Button/Button.jsx'
 
 function Header() {
