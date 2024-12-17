@@ -1,6 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
+import HoverHeader from './Pages/HoverHeader.jsx'
 import Header from './Pages/Header.jsx'
 import About from './Pages/About.jsx'
 import Process from './Pages/Process.jsx'
@@ -19,6 +20,7 @@ createRoot(document.getElementById('root')).render(
     
     </style>
     <div className="container">
+      <HoverHeader />
       <Header />
       <About />
       <Process />

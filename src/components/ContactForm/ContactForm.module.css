@@ -63,6 +63,7 @@ input[type=submit] {
     font-family: "Epilogue", sans-serif;
     border: 1.5px solid #000000;
     background-color: #EDEDED;
+    color: #000000;
     border-radius: 15px;
     display: flex;
     justify-content: center;

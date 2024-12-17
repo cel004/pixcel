@@ -5,7 +5,7 @@ import Button from '../components/Button/Button.jsx'
 function Header() {
     return (
       <>
-      <div className={styles.headerBar}>
+      {/* <div className={styles.headerBar}>
         <div className={styles.title}>Pixcel</div>
           <div className={styles.right}>
             <div className={styles.navigationBar}>
@@ -13,9 +13,8 @@ function Header() {
               <a href="#">Pricing</a>
               <a href="#">Contact</a>
             </div>
-            {/* <img src={logo} alt="Pixcel's logo" /> */}
           </div>
-      </div>
+      </div> */}
       <div className={styles.textContainer}>
         <p style={{ fontWeight: '500', fontSize: '1.2rem'}}>Hand-coded with care,</p>
         <p>our websites are crafted with empathy to redefine 
