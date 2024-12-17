@@ -63,7 +63,7 @@
     z-index: -1000;
     transform: scale(1.24);
     height: 9.064vh;
-    background-color: #EDEDED;
-    opacity: 50%;
-    backdrop-filter: blur(50%);
+
+    background-color: rgba(237, 237, 237, 0.5);
+    backdrop-filter: blur(3px);
 }
