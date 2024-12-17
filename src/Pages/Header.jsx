@@ -1,5 +1,4 @@
 import styles from './Header.module.css'
-import logo from '/pixcel_logo.svg'
 import Button from '../components/Button/Button.jsx'
 
 function Header() {
@@ -16,7 +15,7 @@ function Header() {
           </div>
       </div> */}
       <div className={styles.textContainer}>
-        <p style={{ fontWeight: '500', fontSize: '1.2rem'}}>Hand-coded with care,</p>
+        <p style={{ fontWeight: '500', fontSize: '1.7rem', width: '70%'}}>Hand-coded with care,</p>
         <p>our websites are crafted with empathy to redefine 
           your digital presence, focusing on what truly matters to you.</p>
       </div>
@@ -30,6 +29,8 @@ function Header() {
           <p>SEO</p>
         </div>
       </div>
+      <p className={styles.textContainer2}>Never worry about your website again. We specialize in small
+        business web design and development for clients.</p>
       <div className={styles.buttonContainer}>
         <Button link="#" buttonText="Get started" />
       </div>
