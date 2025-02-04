@@ -34,7 +34,7 @@ function Process() {
           Once polished, your website will go live, delivering your brand to the world.
           </p>
         </ProcessCard>
-        <ProcessCard number="6" title="Support">
+        <ProcessCard number="6" title="Revision">
           <p>
           Final adjustments are made for speed, performance, and user experience.
           </p>
